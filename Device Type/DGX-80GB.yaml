@@ -1,0 +1,52 @@
+manufacturer: Nvidia
+model: Nvidia DGX A100 640GB
+slug: nvidia-dgx-a100-640gb
+comments: DGX A100 GPU 80GB
+u_height: 6
+airflow: front-to-rear
+weight: 123.16
+weight_unit: kg
+interfaces:
+  - name: mgmtport-bmc
+    type: 1000base-t
+    mgmt_only: true
+  - name: eth0 ( lan )
+    type: 1000base-t
+  - name: cluster IB 0
+    type: 200gbase-x-qsfp56
+  - name: cluster IB 1
+    type: 200gbase-x-qsfp56
+  - name: cluster IB 2
+    type: 200gbase-x-qsfp56
+  - name: cluster IB 3
+    type: 200gbase-x-qsfp56
+  - name: cluster IB 4
+    type: 200gbase-x-qsfp56
+  - name: cluster IB 5
+    type: 200gbase-x-qsfp56
+  - name: cluster IB 6
+    type: 200gbase-x-qsfp56
+  - name: cluster IB 7
+    type: 200gbase-x-qsfp56 
+power-ports:
+  - name: PSU0
+    type: C20
+  - name: PSU1
+    type: C20
+  - name: PSU2
+    type: C20
+  - name: PSU3
+    type: C20
+  - name: PSU4
+    type: C20
+  - name: PSU5
+    type: C20
+module-bays:
+  - name: GPU 0
+  - name: GPU 1
+  - name: GPU 2
+  - name: GPU 3
+  - name: GPU 4
+  - name: GPU 5
+  - name: GPU 6
+  - name: GPU 7
